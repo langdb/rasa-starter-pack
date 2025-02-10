@@ -54,6 +54,6 @@ model_groups:
     models:
       - provider: openai
         model: gpt-4o
-        api-base: "https://api.us-east-1.langdb.ai/789b9d6e-0749-40f2-bb21-6f9f38267d3b/v1"
+        api-base: "https://api.us-east-1.langdb.ai/your-project-id/v1"
         request_timeout: 7
         max_tokens: 256
