@@ -1,0 +1,6 @@
+flows:
+  greet:
+    description: always run when the user first greets the bot
+    name: greet
+    steps:
+      - action: utter_greet

@@ -1,0 +1,36 @@
+# Standard Ignores
+venv
+.venv
+__pycache__/
+.DS_Store
+.vscode/
+.history/
+.pytype/
+.pytest_cache/
+
+# Rasa Ignores
+*.db-*
+rasa.db*
+*.db
+results/
+models/
+.idea/
+.rasa/
+.cache/
+.local/
+.keras/
+.global/
+*.zip
+*.log
+
+.env*
+.python-version
+
+# traftrafilatura
+htmlbackup/
+txtfiles/
+
+# Build files
+build/
+
+custom/chat.py
